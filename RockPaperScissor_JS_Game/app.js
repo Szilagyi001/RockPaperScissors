@@ -66,51 +66,51 @@ const game = ()=> {
         const winner = document.querySelector('.winner');
         //checking for tie
         if(playerChoice === computerChoice){
-            /*winner.textContent = 'Tie';*/
+            winner.textContent = 'Tie';
             return;
-        };
+        }
         //check for rock
         if(playerChoice === 'rock'){
             if(computerChoice === 'scissors'){
-                /*winner.textContent = 'Player Won';*/
+                winner.textContent = 'Player Won';
                 pScore++;
                 updateScore();
                 return;
             }else{
-                /*winner.textContent = 'Computer Won';*/
+                winner.textContent = 'Computer Won';
                 cScore++;
                 updateScore();
                 return;
-            };
-        };
+            }
+        }
         //check for paper
         if(playerChoice === 'paper'){
             if(computerChoice === 'scissors'){
-                /*winner.textContent = 'Computer Won'*/
+                winner.textContent = 'Computer Won'
                 cScore++;
                 updateScore();
                 return;
             }else{
-                /*winner.textContent = 'Player Won';*/
-                pChoice++;
-                updateScore();
-                return;
-            };
-        };
-        //check for scissors
-        if(playerChoice === 'scissors'){
-            if(computerChoice === 'rock'){
-                /*winner.textContent = 'Computer Won'*/
-                cScore++;
-                updateScore();
-                return;
-            }else{
-                /*winner.textContent = 'Player Won';*/
+                winner.textContent = 'Player Won';
                 pScore++;
                 updateScore();
                 return;
-            };
-        };
+            }
+        }
+        //check for scissors
+        if(playerChoice === 'scissors'){
+            if(computerChoice === 'rock'){
+                winner.textContent = 'Computer Won'
+                cScore++;
+                updateScore();
+                return;
+            }else{
+                winner.textContent = 'Player Won';
+                pScore++;
+                updateScore();
+                return;
+            }
+        }
     };
 
     //call the inner functions    
