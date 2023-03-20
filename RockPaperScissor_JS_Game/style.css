@@ -158,10 +158,7 @@ div.fadeIn{
     }
     .player-hand,
     .computer-hand{
-        width: 200px;
-    }
-    .options{
-        width: 400px;
+        width: 120px;
     }
     .intro h1{
         font-size: 30px;
@@ -174,5 +171,10 @@ div.fadeIn{
     .match button{
         width: 70px;
         height: 38px;
+    }
+    .options{
+        display: flex;
+        width: 300px;
+        align-items: center;
     }
   }
