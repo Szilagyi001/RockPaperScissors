@@ -155,6 +155,7 @@ div.fadeIn{
 
     .winner {
         font-size: 30px;
+        padding-bottom: 200px;
     }
     .player-hand,
     .computer-hand{
