@@ -169,6 +169,10 @@ div.fadeIn{
     .options .rock,
     .options .paper,
     .options .scissors{
-        font-size: 20px;
+        font-size: 15px;
+    }
+    .match button{
+        width: 70px;
+        height: 38px;
     }
   }
