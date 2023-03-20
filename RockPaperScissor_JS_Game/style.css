@@ -159,7 +159,9 @@ div.fadeIn{
     }
     .player-hand,
     .computer-hand{
-        width: 120px;
+        width: 140px;
+        padding-bottom: 90px;
+
     }
     .intro h1{
         font-size: 30px;
