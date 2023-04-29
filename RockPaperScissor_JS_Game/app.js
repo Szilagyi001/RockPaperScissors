@@ -61,7 +61,6 @@ const game = ()=> {
     };
 
 
-
     const compareHands = (playerChoice, computerChoice) =>{
         //update text
         const winner = document.querySelector('.winner');
@@ -117,9 +116,6 @@ const game = ()=> {
     //call the inner functions    
     startGame();
     playMatch();
-
-
-
 };
 
 
